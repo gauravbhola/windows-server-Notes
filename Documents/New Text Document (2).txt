@@ -1,0 +1,95 @@
+https://www.youtube.com/watch?v=xH5EY7FCFQw   azure dev ops CI/CD
+
+https://www.youtube.com/watch?v=FhLu0ASUrzA  aws dev ops CI/CD
+
+ https://github.com/edurekatestgit/demo-codedeploy-app.git
+git clone https://github.com/ajp-io/guestbook.git
+
+https://www.youtube.com/watch?v=2h6TAJirDqI&list=PL34sAs7_26wNBRWM6BDhnonoA5FMERax0&index=18  k8 videos
+
+https://www.adobe.com/in/acrobat/online/pdf-to-word.html
+https://www.bmc.com/blogs/kubernetes-deployment/  rolling update
+
+https://www.youtube.com/watch?v=6H5sXQoJiso  awsk8 demo
+https://amazon-eks.s3-us-west-2.amazonaws.com/cloudformation/2018-11-07/amazon-eks-vpc-sample.yaml
+https://amazon-eks.s3-us-west-2.amazonaws.com/cloudformation/2018-11-07/amazon-eks-nodegroup.yaml
+
+https://kubernetes.io/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume/
+
+https://k21academy.com/docker-kubernetes/certified-kubernetes-administrator-cka-certification-training-step-by-step-activity-guides-hands-on-lab-exercise/#In_this_Activity_guide_we_cover_Verify_the_resolv_conf_file_content_Create_Update_daemon_json_to_use_external_DNS_for_all_containers_Restart_Docker_service_Start_container_with_specific_Logging_driver_Verify_present_Storage_driver_configured
+
+https://www.coursera.org/projects/docker-fundamentals
+https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
+https://www.coursera.org/projects/ansible-fundamentals
+https://www.coursera.org/search?page=8&index=prod_projects&tab=guided-projects
+https://www.coursera.org/projects/terraform-for-absolute-beginners
+https://www.coursera.org/projects/introduction-to-virtual-machines-in-microsoft-azure
+https://www.coursera.org/projects/web-application-security-testing-burp-suite
+https://www.coursera.org/projects/container-orchestration-kubernetes
+https://www.coursera.org/projects/ansible-fundamentals
+https://www.coursera.org/projects/docker-container-essentials-web-app
+https://www.coursera.org/projects/auto-scaling-aws-ec2-vm
+https://www.coursera.org/projects/aws-s3-basics
+https://www.coursera.org/projects/deploy-website-aws-ecs
+https://www.coursera.org/projects/deploying-apps-kubernetes-with-zero-downtime
+https://www.coursera.org/projects/introduction-to-budgets-in-microsoft-azure-cost-management
+https://www.coursera.org/projects/containerization-using-docker
+https://www.coursera.org/projects/static-website-hosting-and-cross-region-replication
+https://www.coursera.org/projects/deploy-web-app-azure-kubernetes-service
+https://www.coursera.org/projects/monitoring-kubernetes-cluster
+https://www.coursera.org/projects/deploying-apps-kubernetes-cluster-using-minikube
+https://www.coursera.org/projects/azure-create-a-virtual-machine-and-deploy-a-web-server
+https://www.coursera.org/projects/aws-elastic-container-registry-ecr
+https://www.coursera.org/projects/github-visual-studio-code-desktop
+https://www.coursera.org/projects/create-virtual-private-cloud-vpc-aws
+https://www.coursera.org/projects/aws-application-load-balancer
+https://www.coursera.org/projects/accessing-aws-ec2
+https://www.coursera.org/projects/introduction-to-docker-build-portfolio-site
+https://www.coursera.org/projects/scheduling-selenium-testng-tests-via-ci-cd-tools-jenkins
+https://www.coursera.org/projects/executing-selenium-test-automation-with-azure-devops
+https://www.coursera.org/projects/working-with-aws-s3-buckets-using-python-boto3
+https://www.coursera.org/projects/use-jenkins-automate-software-build-test
+https://www.coursera.org/projects/aws-codepipeline-beginner-guide
+https://www.coursera.org/projects/introduction-to-virtual-networks-in-microsoft-azure
+https://www.coursera.org/projects/ansible-introduction-playbook-lamp-wordpress-cloud-devops-automation
+https://www.coursera.org/projects/nodejs-api-aws-elastic-beanstalk
+https://www.coursera.org/projects/git-and-github
+https://www.coursera.org/projects/git-for-developers-using-github
+https://www.coursera.org/projects/orchestrating-data-movement-with-azure-data-factory
+https://www.coursera.org/projects/setup-continuous-integration-ci-workflow-in-circleci
+https://www.coursera.org/projects/containerize-full-stack-nodejs-application-in-docker
+https://www.coursera.org/projects/working-with-azure-data-storage
+https://www.coursera.org/projects/beginners-guide-yaml-syntax
+https://www.coursera.org/projects/azure-devops-deploying-java-maven-app-on-azure-webapp
+https://www.coursera.org/projects/docker-for-absolute-beginners
+https://www.coursera.org/projects/terraform-devops-aws-cloud-iac-ec2
+https://www.coursera.org/projects/web-application-security-testing-with-owsap-zap
+https://www.coursera.org/projects/introduction-to-virtual-machines-in-microsoft-azure
+https://www.coursera.org/projects/deploy-ml-model-aws-elastic-beanstalk
+https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift
+
+
+https://gitlab.com/ibm/skills-network/courses/cc201.git
+[ ! -d 'cc201' ] && git clone https://gitlab.com/ibm/skills-network/courses/cc201.git
+kubectl config get-clusters
+kubectl config get-contexts
+CURRENT   NAME                  CLUSTER                                             AUTHINFO      NAMESPACE
+*         gauravbhola-context   labs-prod-kubernetes-sandbox/c2vb9ecw0vumuu6lfu9g   gauravbhola   sn-labs-gauravbhola
+
+export MY_NAMESPACE=sn-labs-$USERNAME
+
+docker build -t us.icr.io/$MY_NAMESPACE/hello-world:1 . && docker push us.icr.io/$MY_NAMESPACE/hello-world:1
+kubectl run hello-world --image us.icr.io/$MY_NAMESPACE/hello-world:1 --overrides='{"spec":{"template":{"spec":{"imagePullSecrets":[{"name":"icr"}]}}}}'
+
+
+
+
+https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/lecture/ktoWb/replica-sets
+
+C:\ProgramData\chocolatey\lib\eksctl\tools
+
+
+
+C:\Users\bholaga1\AppData\Local\Temp\32\chocolatey\chocoInstall\tools\chocolateyInstall>
+
+C:\bin>
